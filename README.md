@@ -6,6 +6,14 @@ The RoughMob method is a new approach in molecular dynamics simulations, designe
 ## Methodology
 RoughMob method's core concept lies in correlating the molecular roughness difference (a quantity derived from a numerical comparison of the AA and CG molecular surfaces) and roughness volumes (derived from the molecular roughness difference), with dynamic acceleration. This correlation allows for an accurate prediction of the acceleration factor upon coarse-graining, crucial in determining "true" diffusion coefficients in CG molecular dynamic simulations. The method has been tested and verified across multiple alkanes and aromatic molecules and alkane combinations. 
 
+## Further Reading and References
+
+For more detailed information on the RoughMob method and its applications, please refer to the following key references:
+
+1. Meinel, M. K., & Müller-Plathe, F. (2020). Loss of Molecular Roughness upon Coarse-Graining Predicts the Artificially Accelerated Mobility of Coarse-Grained Molecular Simulation Models. *Journal of Chemical Theory and Computation*, 16(3), 1411-1419. [DOI: 10.1021/acs.jctc.9b00943](https://doi.org/10.1021/acs.jctc.9b00943)
+
+2. Meinel, M. K., & Müller-Plathe, F. (2022). Roughness Volumes: An Improved RoughMob Concept for Predicting the Increase of Molecular Mobility upon Coarse-Graining. *Journal of Physical Chemistry B*, 126(20), 3737-3747. [DOI: 10.1021/acs.jpcb.2c00944](https://doi.org/10.1021/acs.jpcb.2c00944)
+
 ## Key Features
 - **Predictive Accuracy**: Capable of predicting self-diffusion acceleration factors with minimal error, comparable to routine measurement accuracies.
 - **Minimal Parameter Fitting**: Pure hydrocarbon systems and their mixtures utilize the same parameters.
@@ -19,5 +27,5 @@ While so far primarily developed for unpolar molecules within a specific size ra
 The repository provides tools and examples for implementing the RoughMob method. Users can leverage this method to enhance the efficiency and accuracy of their simulations, particularly in the study of simple fluids and their mixtures.
 
 ## Contributions
-We welcome any contributions and suggestions to improve the RoughMob method. Please refer to our contribution guidelines for more information.
+We welcome any contributions and suggestions to improve the RoughMob method. Please refer to our contribution guidelines for more information or feel free to contact us. 
 
